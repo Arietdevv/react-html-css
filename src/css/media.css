@@ -1,0 +1,10 @@
+@media (max-width: 320px) {
+  .container {
+    width: 80%;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+  }
+}

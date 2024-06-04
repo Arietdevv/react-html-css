@@ -1,0 +1,499 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #1f2e35;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!       HEADER     !!!!!!!!!!!!!!!!!!!!!!!!!! */
+#header {
+  padding: 20px 0;
+  color: #ffffff;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head_img {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  align-items: center;
+}
+
+.head_img h2 {
+  font-size: 28px;
+}
+
+.head_txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 570px;
+}
+
+.head_txt button {
+  border: 1px solid #fff;
+  color: #ffffff;
+  background-color: #1f2e35;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #02897a;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!       HERO      !!!!!!!!!!!!!!!!!!!!!!!!!! */
+#hero {
+  padding: 40px 0;
+  color: #ffffff;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+  align-items: center;
+}
+
+.hero_txt h1 {
+  margin: 30px 0;
+  font-size: 50px;
+}
+
+.hero_txt p {
+  font-size: 20px;
+}
+
+.hero_btn {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+.hero_btn button {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background-color: #02897a;
+  color: #fff;
+  font-size: 16px;
+}
+
+.hero_img a .hero_img img {
+  display: flex;
+  align-items: center;
+}
+
+.hero_img a {
+  color: #02897a;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!       Spec     !!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+#spec {
+  background-image: url(./img//Bg.png);
+  background-color: #1f2e35;
+}
+
+.spec h1 {
+  text-align: center;
+  color: #fff;
+  margin: 50px 0;
+}
+
+.spec_block {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  color: #fff;
+}
+.block_spec p {
+  margin: 5px 0;
+}
+
+.spec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spec button {
+  margin: 50px 0;
+  text-align: center;
+  padding: 10px 15px;
+  background-color: #02897a;
+  border-radius: 7px;
+  border: none;
+  color: #fff;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!       Manag     !!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.manag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.manag_txt h1 {
+  color: #fff;
+}
+.manag_txt p {
+  margin: 13px 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!      Cus     !!!!!!!!!!!!!!!!!!!!!!!!!! */
+#cus {
+  color: #fff;
+}
+.cus {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  align-items: center;
+}
+.cus h1 {
+  margin: 10px 0;
+}
+
+.cus_block {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!      Cus     !!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col_txt {
+  color: #fff;
+}
+
+.col_txt p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!      Easy     !!!!!!!!!!!!!!!!!!!!!!!!!! */
+#easy {
+  padding-top: 50px;
+}
+.easy h1 {
+  color: #fff;
+  text-align: center;
+}
+.easy {
+  text-align: center;
+}
+.easy p {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.easy_img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_easy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.easy button {
+  margin-top: 50px;
+  padding: 10px 15px;
+  background-color: #02897a;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 150px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!      Con     !!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+#con {
+  margin: 80px 0;
+}
+
+.con h1 {
+  color: #fff;
+  font-size: 35px;
+  margin: 10px 0;
+}
+
+.con h6 {
+  color: #fff;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.con_block img {
+  width: 300px;
+}
+
+.con_block {
+  background-color: #fff;
+  width: 300px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.block_con {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.block_con h3 {
+  margin: 10px 0;
+  color: #22343d;
+  font-size: 22px;
+}
+
+.mot {
+  color: #02897a;
+}
+
+.con_pagin {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.con_pagin h4 {
+  font-size: 35px;
+  color: #fff;
+  margin: 10px 0;
+}
+.con_pagin p {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!      Free     !!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.free {
+  margin: 50px 0;
+  text-align: center;
+}
+.free_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block_free {
+  border-radius: 7px;
+  background-color: #fff;
+  width: 250px;
+  height: 300px;
+}
+.block_free h3 {
+  margin-top: 20px;
+  font-size: 27px;
+}
+.block_free p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.free_price {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.free_price h1 {
+  font-size: 40px;
+  color: #02897a;
+}
+
+.price_free h5 {
+  color: #02897a;
+  font-size: 27px;
+}
+
+.block_free button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #02897a;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.block_free2 {
+  border-radius: 7px;
+  background-color: #02897a;
+  color: #fff;
+  width: 250px;
+  height: 300px;
+}
+
+.block_free2 h3 {
+  margin-top: 20px;
+  font-size: 27px;
+}
+.block_free2 p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.free_price2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.free_price2 h1 {
+  font-size: 40px;
+  color: #fff;
+}
+
+.price_free2 h5 {
+  color: #fff;
+  font-size: 27px;
+}
+
+.block_free2 button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #fff;
+  color: #02897a;
+  border-radius: 10px;
+  border: none;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!      Clien    !!!!!!!!!!!!!!!!!!!!!!!!!! */
+#cli {
+  margin: 150px 0;
+}
+.cli h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+}
+.cli h5 {
+  margin: 20px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.cli_block {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block_cli {
+  padding: 10px;
+  width: 220px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.block_cli p {
+  font-size: 15px;
+  margin: 10px 0;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!      GET   !!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+#get {
+  margin: 50px 0;
+}
+.get {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #02897a;
+  padding: 50px;
+  border-radius: 20px;
+  color: #fff;
+  width: 900px;
+  height: 250px;
+}
+
+.get_txt h1 {
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.get_txt button {
+  margin-top: 20px;
+  background-color: #fff;
+  color: #02897a;
+  border-radius: 10px;
+  padding: 15px 40px;
+  border: none;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!      Footer    !!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+#footer {
+  margin: 50px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.fot_product {
+  margin: 7px 0;
+}
+.footer h4 {
+  font-size: 25px;
+}
+
+.footer h5 {
+  font-size: 15px;
+  margin: 7px 0;
+}
+
+.fot_ener p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.fot_ener input {
+  padding: 10px 30px;
+}
+
+.fot_ener button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #02897a;
+  color: #fff;
+}
+
+#footer h2 {
+  margin: 50px 0;
+  text-align: center;
+  color: #fff;
+}
